@@ -1,0 +1,221 @@
+! ===================================================
+! AUTORIZADOS: PERMITIR COMPLETO (WILDCARDS)
+! ===================================================
+
+! --- META / FACEBOOK / INSTAGRAM ---
+@@||facebook.com^$client=autorizados
+@@||*.facebook.com^$client=autorizados
+@@||facebook.net^$client=autorizados
+@@||*.facebook.net^$client=autorizados
+@@||fb.com^$client=autorizados
+@@||*.fb.com^$client=autorizados
+@@||fbcdn.net^$client=autorizados
+@@||*.fbcdn.net^$client=autorizados
+@@||fbsbx.com^$client=autorizados
+@@||*.fbsbx.com^$client=autorizados
+@@||messenger.com^$client=autorizados
+@@||*.messenger.com^$client=autorizados
+@@||m.me^$client=autorizados
+@@||*.m.me^$client=autorizados
+@@||instagram.com^$client=autorizados
+@@||*.instagram.com^$client=autorizados
+@@||cdninstagram.com^$client=autorizados
+@@||*.cdninstagram.com^$client=autorizados
+@@||ig.me^$client=autorizados
+@@||*.ig.me^$client=autorizados
+@@||igcdn.com^$client=autorizados
+@@||*.igcdn.com^$client=autorizados
+@@||instagramstatic-a.akamaihd.net^$client=autorizados
+@@||*.instagramstatic-a.akamaihd.net^$client=autorizados
+@@||graph.facebook.com^$client=autorizados
+@@||connect.facebook.net^$client=autorizados
+
+! --- TIKTOK / BYTEDANCE ---
+@@||tiktok.com^$client=autorizados
+@@||*.tiktok.com^$client=autorizados
+@@||tiktokcdn.com^$client=autorizados
+@@||*.tiktokcdn.com^$client=autorizados
+@@||tiktokv.com^$client=autorizados
+@@||*.tiktokv.com^$client=autorizados
+@@||tiktokcdn-us.com^$client=autorizados
+@@||*.tiktokcdn-us.com^$client=autorizados
+@@||tiktokcdn-eu.com^$client=autorizados
+@@||*.tiktokcdn-eu.com^$client=autorizados
+@@||musical.ly^$client=autorizados
+@@||*.musical.ly^$client=autorizados
+@@||byteoversea.com^$client=autorizados
+@@||*.byteoversea.com^$client=autorizados
+@@||ibytedtos.com^$client=autorizados
+@@||*.ibytedtos.com^$client=autorizados
+@@||ibyteimg.com^$client=autorizados
+@@||*.ibyteimg.com^$client=autorizados
+@@||bytedance.com^$client=autorizados
+@@||*.bytedance.com^$client=autorizados
+@@||bytedance.net^$client=autorizados
+@@||*.bytedance.net^$client=autorizados
+
+! --- X / TWITTER ---
+@@||x.com^$client=autorizados
+@@||*.x.com^$client=autorizados
+@@||twitter.com^$client=autorizados
+@@||*.twitter.com^$client=autorizados
+@@||t.co^$client=autorizados
+@@||*.t.co^$client=autorizados
+@@||twimg.com^$client=autorizados
+@@||*.twimg.com^$client=autorizados
+@@||pbs.twimg.com^$client=autorizados
+@@||abs.twimg.com^$client=autorizados
+@@||api.twitter.com^$client=autorizados
+
+! --- SNAPCHAT ---
+@@||snapchat.com^$client=autorizados
+@@||*.snapchat.com^$client=autorizados
+@@||sc-cdn.net^$client=autorizados
+@@||*.sc-cdn.net^$client=autorizados
+@@||snapkit.com^$client=autorizados
+@@||*.snapkit.com^$client=autorizados
+@@||snapads.com^$client=autorizados
+@@||*.snapads.com^$client=autorizados
+@@||app.snapchat.com^$client=autorizados
+
+! --- REDDIT ---
+@@||reddit.com^$client=autorizados
+@@||*.reddit.com^$client=autorizados
+@@||redd.it^$client=autorizados
+@@||*.redd.it^$client=autorizados
+@@||redditmedia.com^$client=autorizados
+@@||*.redditmedia.com^$client=autorizados
+@@||external-preview.redd.it^$client=autorizados
+@@||styles.redditmedia.com^$client=autorizados
+
+! --- PINTEREST ---
+@@||pinterest.com^$client=autorizados
+@@||*.pinterest.com^$client=autorizados
+@@||pinimg.com^$client=autorizados
+@@||*.pinimg.com^$client=autorizados
+
+! --- DISCORD ---
+@@||discord.com^$client=autorizados
+@@||*.discord.com^$client=autorizados
+@@||discordapp.com^$client=autorizados
+@@||*.discordapp.com^$client=autorizados
+@@||discord.gg^$client=autorizados
+@@||*.discord.gg^$client=autorizados
+@@||discord.media^$client=autorizados
+@@||*.discord.media^$client=autorizados
+@@||discordcdn.com^$client=autorizados
+@@||*.discordcdn.com^$client=autorizados
+@@||cdn.discordapp.com^$client=autorizados
+@@||*.cdn.discordapp.com^$client=autorizados
+
+! --- NETFLIX ---
+@@||netflix.com^$client=autorizados
+@@||*.netflix.com^$client=autorizados
+@@||nflximg.net^$client=autorizados
+@@||*.nflximg.net^$client=autorizados
+@@||nflximg.com^$client=autorizados
+@@||*.nflximg.com^$client=autorizados
+@@||nflxvideo.net^$client=autorizados
+@@||*.nflxvideo.net^$client=autorizados
+@@||nflxso.net^$client=autorizados
+@@||*.nflxso.net^$client=autorizados
+@@||nflxext.com^$client=autorizados
+@@||*.nflxext.com^$client=autorizados
+@@||nflxsearch.net^$client=autorizados
+@@||*.nflxsearch.net^$client=autorizados
+@@||netflix.net^$client=autorizados
+@@||*.netflix.net^$client=autorizados
+
+! --- PRIME VIDEO / AMAZON VIDEO ---
+@@||primevideo.com^$client=autorizados
+@@||*.primevideo.com^$client=autorizados
+@@||primevideo.ca^$client=autorizados
+@@||*.primevideo.ca^$client=autorizados
+@@||primevideo.eu^$client=autorizados
+@@||*.primevideo.eu^$client=autorizados
+@@||amazonvideo.com^$client=autorizados
+@@||*.amazonvideo.com^$client=autorizados
+@@||aiv-cdn.net^$client=autorizados
+@@||*.aiv-cdn.net^$client=autorizados
+@@||aiv-delivery.net^$client=autorizados
+@@||*.aiv-delivery.net^$client=autorizados
+@@||video.a2z.com^$client=autorizados
+@@||*.video.a2z.com^$client=autorizados
+@@||media-amazon.com^$client=autorizados
+@@||*.media-amazon.com^$client=autorizados
+
+! --- HBO / MAX ---
+@@||max.com^$client=autorizados
+@@||*.max.com^$client=autorizados
+@@||hbomax.com^$client=autorizados
+@@||*.hbomax.com^$client=autorizados
+@@||hbo.com^$client=autorizados
+@@||*.hbo.com^$client=autorizados
+@@||hbomaxcdn.com^$client=autorizados
+@@||*.hbomaxcdn.com^$client=autorizados
+@@||hbonow.com^$client=autorizados
+@@||*.hbonow.com^$client=autorizados
+
+! --- DISNEY+ ---
+@@||disneyplus.com^$client=autorizados
+@@||*.disneyplus.com^$client=autorizados
+@@||dssott.com^$client=autorizados
+@@||*.dssott.com^$client=autorizados
+@@||disney-plus.net^$client=autorizados
+@@||*.disney-plus.net^$client=autorizados
+@@||disneypluscdn.com^$client=autorizados
+@@||*.disneypluscdn.com^$client=autorizados
+
+! --- PARAMOUNT+ ---
+@@||paramountplus.com^$client=autorizados
+@@||*.paramountplus.com^$client=autorizados
+@@||cbsi.com^$client=autorizados
+@@||*.cbsi.com^$client=autorizados
+@@||cbs.com^$client=autorizados
+@@||*.cbs.com^$client=autorizados
+@@||mtvnservices.com^$client=autorizados
+@@||*.mtvnservices.com^$client=autorizados
+
+! --- APPLE TV+ (ojo: puede tocar cosas de Apple) ---
+@@||tv.apple.com^$client=autorizados
+@@||*.tv.apple.com^$client=autorizados
+@@||aaplimg.com^$client=autorizados
+@@||*.aaplimg.com^$client=autorizados
+
+! --- TWITCH ---
+@@||twitch.tv^$client=autorizados
+@@||*.twitch.tv^$client=autorizados
+@@||ttvnw.net^$client=autorizados
+@@||*.ttvnw.net^$client=autorizados
+@@||jtvnw.net^$client=autorizados
+@@||*.jtvnw.net^$client=autorizados
+
+! --- CRUNCHYROLL / VRV ---
+@@||crunchyroll.com^$client=autorizados
+@@||*.crunchyroll.com^$client=autorizados
+@@||vrv.co^$client=autorizados
+@@||*.vrv.co^$client=autorizados
+
+! --- PEACOCK ---
+@@||peacocktv.com^$client=autorizados
+@@||*.peacocktv.com^$client=autorizados
+
+! --- HULU ---
+@@||hulu.com^$client=autorizados
+@@||*.hulu.com^$client=autorizados
+
+! --- PLUTO TV ---
+@@||pluto.tv^$client=autorizados
+@@||*.pluto.tv^$client=autorizados
+
+! --- TUBI ---
+@@||tubitv.com^$client=autorizados
+@@||*.tubitv.com^$client=autorizados
+
+! --- VIMEO ---
+@@||vimeo.com^$client=autorizados
+@@||*.vimeo.com^$client=autorizados
+@@||player.vimeo.com^$client=autorizados
+@@||*.player.vimeo.com^$client=autorizados
+@@||vimeocdn.com^$client=autorizados
+@@||*.vimeocdn.com^$client=autorizados

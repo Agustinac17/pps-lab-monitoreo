@@ -1,0 +1,147 @@
+! --- META / FACEBOOK / INSTAGRAM ---
+||facebook.com^
+||facebook.net^
+||fb.com^
+||fbcdn.net^
+||fbsbx.com^
+||messenger.com^
+||m.me^
+||instagram.com^
+||cdninstagram.com^
+||ig.me^
+||igcdn.com^
+||instagramstatic-a.akamaihd.net^
+||graph.facebook.com^
+||connect.facebook.net^
+
+! --- TIKTOK ---
+||tiktok.com^
+||tiktokcdn.com^
+||tiktokv.com^
+||tiktokcdn-us.com^
+||tiktokcdn-eu.com^
+||musical.ly^
+||byteoversea.com^
+||ibytedtos.com^
+||ibyteimg.com^
+||bytedance.com^
+||bytedance.net^
+
+! --- X / TWITTER ---
+||x.com^
+||twitter.com^
+||t.co^
+||twimg.com^
+||pbs.twimg.com^
+||abs.twimg.com^
+||api.twitter.com^
+
+! --- SNAPCHAT ---
+||snapchat.com^
+||sc-cdn.net^
+||snapkit.com^
+||snapads.com^
+||app.snapchat.com^
+
+! --- REDDIT ---
+||reddit.com^
+||redd.it^
+||redditmedia.com^
+||external-preview.redd.it^
+||styles.redditmedia.com^
+
+! --- PINTEREST ---
+||pinterest.com^
+||pinimg.com^
+
+! --- DISCORD ---
+||discord.com^
+||discordapp.com^
+||discord.gg^
+||discord.media^
+||discordcdn.com^
+||cdn.discordapp.com^
+
+! --- NETFLIX ---
+||netflix.com^
+||www.netflix.com^
+||help.netflix.com^
+||nflximg.net^
+||nflximg.com^
+||nflxvideo.net^
+||nflxso.net^
+||nflxext.com^
+||nflxsearch.net^
+||netflix.net^
+
+! --- PRIME VIDEO / AMAZON VIDEO ---
+||primevideo.com^
+||www.primevideo.com^
+||primevideo.ca^
+||primevideo.eu^
+||aiv-cdn.net^
+||aiv-delivery.net^
+||amazonvideo.com^
+||video.a2z.com^
+||media-amazon.com^
+
+! --- HBO / MAX ---
+||max.com^
+||www.max.com^
+||hbomax.com^
+||www.hbomax.com^
+||hbo.com^
+||www.hbo.com^
+||hbomaxcdn.com^
+||hbonow.com^
+
+! --- DISNEY+ ---
+||disneyplus.com^
+||www.disneyplus.com^
+||dssott.com^
+||disney-plus.net^
+||disneypluscdn.com^
+
+! --- PARAMOUNT+ ---
+||paramountplus.com^
+||www.paramountplus.com^
+||cbsi.com^
+||cbs.com^
+||mtvnservices.com^
+
+! --- APPLE TV+ ---
+||tv.apple.com^
+||apple.com^
+||aaplimg.com^
+
+! --- TWITCH ---
+||twitch.tv^
+||www.twitch.tv^
+||ttvnw.net^
+||jtvnw.net^
+
+! --- CRUNCHYROLL ---
+||crunchyroll.com^
+||www.crunchyroll.com^
+||vrv.co^
+
+! --- PEACOCK ---
+||peacocktv.com^
+||www.peacocktv.com^
+
+! --- HULU ---
+||hulu.com^
+||www.hulu.com^
+
+! --- PLUTO TV ---
+||pluto.tv^
+||www.pluto.tv^
+
+! --- TUBI ---
+||tubitv.com^
+||www.tubitv.com^
+
+! --- VIMEO (streaming/video hosting) ---
+||vimeo.com^
+||player.vimeo.com^
+||vimeocdn.com^
