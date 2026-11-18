@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Erika Cáceres · Portfolio · Caso PPS II</title>
+<style>
+  :root { --dk:#0B3C49; --ac:#1C7293; --am:#F2A541; --rd:#C8553D; --gr:#3E8E7E; --bg:#EEF4F5; --tx:#1A2B33; --mu:#5C7480; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: Calibri, "Segoe UI", Arial, sans-serif; color:var(--tx); line-height:1.55; background:#fff; }
+  h1,h2,h3 { font-family: Cambria, Georgia, serif; margin:0; }
+  header { background:var(--dk); color:#fff; padding:56px 24px 48px; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+  header .wrap { padding:0; }
+  .kicker { color:var(--am); font-weight:700; letter-spacing:.12em; font-size:.85rem; text-transform:uppercase; }
+  header h1 { font-size:2.4rem; margin:10px 0 8px; }
+  header p { color:#C9DCE2; margin:0; font-size:1.1rem; }
+  .tags { margin-top:18px; display:flex; flex-wrap:wrap; gap:8px; }
+  .tag { border:1px solid #4F7C88; color:#E3EEF1; border-radius:999px; padding:4px 12px; font-size:.9rem; }
+  section { padding:44px 0 8px; }
+  h2 { color:var(--dk); font-size:1.7rem; margin-bottom:14px; }
+  .lead { font-size:1.1rem; color:var(--mu); max-width:760px; }
+  .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); margin-top:18px; }
+  .card { background:var(--bg); border-radius:12px; padding:18px; }
+  .card h3 { font-size:1.15rem; color:var(--dk); margin-bottom:6px; }
+  .card.dark { background:var(--ac); color:#fff; } .card.dark h3 { color:#fff; }
+  .num { display:inline-flex; width:30px; height:30px; border-radius:50%; background:var(--rd); color:#fff; font-weight:700; align-items:center; justify-content:center; margin-bottom:8px; }
+  .flow { display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-top:16px; }
+  .step { color:#fff; font-weight:700; border-radius:10px; padding:14px 18px; }
+  .arrow { color:var(--mu); font-size:1.5rem; }
+  table { border-collapse:collapse; width:100%; margin-top:14px; }
+  th,td { text-align:left; padding:10px 12px; border-bottom:1px solid #D5E1E4; }
+  th { background:var(--dk); color:#fff; }
+  .note { font-style:italic; color:var(--mu); margin-top:10px; }
+  .callout { background:var(--dk); color:#fff; border-radius:14px; padding:24px; margin-top:8px; }
+  .callout h3 { color:var(--am); margin-bottom:8px; }
+  a { color:var(--ac); }
+  .links a { display:inline-block; margin:6px 12px 0 0; background:var(--ac); color:#fff; padding:10px 16px; border-radius:8px; text-decoration:none; font-weight:700; }
+  footer { margin-top:48px; padding:24px 0 40px; color:var(--mu); font-size:.9rem; border-top:1px solid #D5E1E4; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="kicker">Portfolio · Caso de estudio</div>
+    <h1>Erika Agustina Cáceres</h1>
+    <p>Estudiante avanzada de Ingeniería en Sistemas de Información · Universidad de la Cuenca del Plata · Posadas, Misiones</p>
+    <div class="tags">
+      <span class="tag">Redes</span><span class="tag">Monitoreo</span><span class="tag">Zabbix</span><span class="tag">SNMP</span>
+      <span class="tag">Proxmox VE</span><span class="tag">MikroTik</span><span class="tag">AdGuard Home</span><span class="tag">Linux</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>Práctica Profesional Supervisada: monitoreo, respaldo y filtrado en un organismo público</h2>
+    <p class="lead">Durante 100 horas trabajé en el Centro de Cómputos de un organismo público provincial de salud y previsión social. Puse en funcionamiento servicios de infraestructura virtualizados con herramientas de código abierto y documenté cada uno.</p>
+  </section>
+
+  <section>
+    <h2>El problema</h2>
+    <div class="grid">
+      <div class="card"><span class="num">1</span><h3>Sin monitoreo</h3>Las fallas se conocían por el reclamo de un usuario.</div>
+      <div class="card"><span class="num">2</span><h3>Respaldo frágil</h3>Sin copia independiente ni retención definida.</div>
+      <div class="card"><span class="num">3</span><h3>Sin entorno aislado</h3>Los sistemas nuevos no tenían dónde probarse.</div>
+      <div class="card"><span class="num">4</span><h3>Sin control de navegación</h3>Ninguna política por grupo de usuarios.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Lo que hice</h2>
+    <div class="grid">
+      <div class="card dark"><h3>Zabbix</h3>Instalación desde cero, switches por SNMP, guía propia y alertas a Telegram.</div>
+      <div class="card dark"><h3>Backup</h3>rsync + systemd: copia diaria, 7 días de histórico y limpieza segura del origen.</div>
+      <div class="card dark"><h3>Entorno nuevo</h3>Red y acceso seguro: usuarios propios, 2FA y firewall en Proxmox.</div>
+      <div class="card dark"><h3>AdGuard en MikroTik</h3>Contenedor en RouterOS con reglas de bloqueo y excepciones por grupo.</div>
+      <div class="card dark"><h3>Wazuh</h3>Estudio y guía para su incorporación futura.</div>
+    </div>
+    <p class="note">Equipamiento: Ubiquiti · MikroTik · Cisco · HP Aruba · Proxmox VE.</p>
+  </section>
+
+  <section>
+    <h2>De la falla a la alerta</h2>
+    <div class="flow">
+      <span class="step" style="background:var(--rd)">Un equipo falla</span><span class="arrow">→</span>
+      <span class="step" style="background:var(--ac)">SNMP lo detecta</span><span class="arrow">→</span>
+      <span class="step" style="background:var(--ac)">Zabbix registra</span><span class="arrow">→</span>
+      <span class="step" style="background:var(--gr)">Telegram avisa</span>
+    </div>
+    <p>El SNMP pasó de <em>timeout</em> a <em>authorizationError</em> y finalmente a datos, ajustando una community de solo lectura. Cada cambio de error aportó información para el diagnóstico.</p>
+  </section>
+
+  <section>
+    <h2>Resultados</h2>
+    <table>
+      <tr><th>Frente</th><th>Antes</th><th>Al cierre</th></tr>
+      <tr><td>Monitoreo</td><td>Por reclamo del usuario</td><td>Zabbix + alertas a Telegram</td></tr>
+      <tr><td>Respaldo</td><td>Sin histórico</td><td>Diario, 7 días, borrado seguro</td></tr>
+      <tr><td>Entorno nuevo</td><td>Inexistente</td><td>Conectado, con acceso seguro</td></tr>
+      <tr><td>Navegación</td><td>Sin filtrado</td><td>Reglas por grupo (AdGuard)</td></tr>
+      <tr><td>Topología</td><td>Dependencias en cadena</td><td>Diagnosticada, no ejecutada</td></tr>
+    </table>
+    <p class="note">Por confidencialidad no se publican datos de la organización. La validación se reproduce en un laboratorio propio.</p>
+  </section>
+
+  <section>
+    <div class="callout">
+      <h3>Puente con mi Proyecto Final: Limbii</h3>
+      Limbii es una plataforma de gestión y seguridad de redes domésticas sobre Raspberry Pi. Las reglas por grupo de clientes que configuré en AdGuard son, a escala institucional, los mismos perfiles y políticas que Limbii propone para un hogar.
+    </div>
+  </section>
+
+  <section class="links">
+    <h2>Material</h2>
+    <a href="https://github.com/Agustinac17/pps-lab-monitoreo">Repositorio del laboratorio</a>
+    <a href="https://github.com/Agustinac17/pps-lab-monitoreo/tree/main/docs">Guías técnicas</a>
+    <a href="https://github.com/Agustinac17/pps-lab-monitoreo/tree/main/lab">Levantar el lab</a>
+  </section>
+
+  <footer>Erika Agustina Cáceres · Práctica Profesional Supervisada II · Universidad de la Cuenca del Plata · 2026</footer>
+</main>
+</body>
+</html>
